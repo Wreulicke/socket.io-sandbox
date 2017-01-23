@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch":"nyc ava --watch"
   },
   "repository": {
     "type": "git",
@@ -16,5 +17,10 @@
   "bugs": {
     "url": "https://github.com/Wreulicke/socket.io-sandbox/issues"
   },
-  "homepage": "https://github.com/Wreulicke/socket.io-sandbox#readme"
+  "homepage": "https://github.com/Wreulicke/socket.io-sandbox#readme",
+  "devDependencies": {
+    "ava": "^0.17.0",
+    "nyc": "^10.1.2",
+    "socket.io": "^1.7.2"
+  }
 }
