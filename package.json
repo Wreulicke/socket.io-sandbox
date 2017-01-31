@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "watch":"nyc ava --watch"
+    "watch": "nyc ava --watch"
   },
   "repository": {
     "type": "git",
@@ -22,5 +22,8 @@
     "ava": "^0.17.0",
     "nyc": "^10.1.2",
     "socket.io": "^1.7.2"
+  },
+  "dependencies": {
+    "stompjs": "^2.3.3"
   }
 }
